@@ -1,13 +1,12 @@
 {
-  "name": "ts-boilerplate",
+  "name": "ts-extension-boilerplate",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A boilerplate for developing browser extensions with TypeScript",
   "scripts": {
     "dev": "rollup -c --bundleConfigAsCjs --watch",
     "build": "rollup -c --bundleConfigAsCjs"
   },
-  "author": "",
+  "author": "pastelite",
   "license": "ISC",
   "dependencies": {
     "typescript": "^5.0.4",
