@@ -1,0 +1,25 @@
+{
+  "name": "ts-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup -c --bundleConfigAsCjs --watch",
+    "build": "rollup -c --bundleConfigAsCjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.0.4",
+    "webextension-polyfill": "^0.10.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-typescript": "^11.1.1",
+    "@types/webextension-polyfill": "^0.10.0",
+    "rollup": "^3.22.1",
+    "rollup-plugin-chrome-extension": "^3.6.12",
+    "rollup-plugin-delete": "^2.0.0"
+  }
+}
